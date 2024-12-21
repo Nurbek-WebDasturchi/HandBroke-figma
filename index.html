@@ -6,20 +6,26 @@
         <title>HandBrake System</title>
         <link rel="stylesheet" href="/css/style.css" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <style>
+            /* Inter Font of link */
+            @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+            /* Roboto Font */
+            @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Sans+Narrow:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+        </style>
     </head>
     <body>
         <header>
             <div class="container">
                 <!-- Navbar -->
                 <nav> 
-                    <div class="logo-container">
+                    <div class="logo-container mt-3">
                         <img
                             src="/images/image 1.svg"
                             alt="svg rasm yuklanmadi"
                         />
                         <h4>HandBrake</h4>
                     </div>
-                    <div class="d-flex align-items-center link-group">
+                    <div class="d-flex align-items-center link-group mt-3">
                         <a href="#" class="text-decoration-none">Dock</a>
                         <a href="#" class="text-decoration-none">GitHub</a>
                         <a href="#" class="text-decoration-none">News</a>
@@ -29,20 +35,20 @@
                         <a href="#" class="download-btn">Download</a>
                     </div>
                 </nav>
-                <!-- Blue section -->
+                <!-- Blue Section-1 -->
                 <section class="d-flex justify-content-between mt-5" id="section-1">
-                    <div class="company-status">
+                    <div class="company-status ">
                         <h1>
                             HandBrake
                         </h1>
                         <h4 class="mt-3">
                             The open source video transcoder
                         </h4>
-                        <p class="mt-3 d-inline-block">HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs</p>
+                        <p class="mt-3 d-inline-block">HandBrake is a tool for converting video from nearly any <br> format to  a selection of modern, widely supported codecs</p>
                         <a href="#" class="company-btn mt-3 ">Download Free</a>
                     </div>
                     <div class="img-section">
-                        <img src="/images/Image (7).png" alt="img1">
+                        <img src="/images/Image (7).png" class="mb-5" alt="img1" style="position: relative; left: -30px;">
                     </div>
                 </section>
             </div>
@@ -72,21 +78,173 @@
             </section>
             <!-- Section-3 -->
              <section class="mt-5" id="section-3">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
+                <div class="container mt-5">
+                    <div class="row mt-5">
+                        <div class="col-12 mt-5">
                             <h2 class="section-title">
                                 Just a few reason you  <br>
 will love HandBrake
                             </h2>
-                    <div class="yellow-length">
-
-                    </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center">
+                            <div class="yellow-length"></div>
                         </div>
                     </div>
                 </div>
              </section>
+             <section id="section-4" style="margin-top: 100px;">
+                <div class="container mt-5">
+                      <!-- 1-row -->
+                      <div class="row mt-5">
+                        <div class="col-6">
+                            <img src="/images/Rectangle 1.png" alt="1" class="img-fluid">
+                        </div>
+                        <div class="col-6">
+                            <div class="text-box">
+                                <h4 class="mt-3">
+                                    Optimised for easy use
+                                </h4>
+                                <h2 class="mt-3">
+                                    Built-in Device Presets
+                                </h2>
+                                <p class="d-inline-block mt-3">
+                                    Get started with HandBrake in seconds by choosing a profile optimised for your device, or choose a universal profile for standard or high quality conversions. Simple, easy, fast. For those that want more choice, tweak many basic and advanced options to improve your encodes.
+                                </p>
+                            </div>
+                        </div>
+                     </div>
+                    <!-- 2-row -->
+                     <div class="row d-flex align-items-center mt-5">
+                        <div class="col-6">
+                            <div class="text-box">
+                                <h4 class="mt-3">
+                                    Optimised for easy use
+                                </h4>
+                                <h2 class="mt-3">
+                                    Built-in Device Presets
+                                </h2>
+                                <p class="d-inline-block mt-3">
+                                    Handbrake can process most common multimedia files and any DVD or BluRay sources that do not contain any kind of copy protection.
+                                </p>
+                                <h6 class="mt-3">Outputs</h6>
+                                <!-- Checkboxs -->
+                                <div class="d-flex check-box">
+                                    <img src="/images/check-circle.svg" alt="checked!">
+                                    <p>File Containers: .MP4(.M4V) and .MKV
+                                    </p>
+                                </div>
+                                <div class="d-flex check-box">
+                                    <img src="/images/check-circle.svg" alt="checked!">
+                                    <p>Video Encoders: H.265 (x265 and QuickSync), H.264(x264 and QuickSync), H.265 MPEG-4 and MPEG-2, VP8, VP9 and Theora
+                                    </p>
+                                </div>
+                                <div class="d-flex check-box">
+                                    <img src="/images/check-circle.svg" alt="checked!">
+                                    <p>Audio Encoders: AAC / HE-AAC, MP3, Flac, AC3, or Vorbis
+                                    </p>
+                                </div>
+                                <div class="d-flex check-box">
+                                    <img src="/images/check-circle.svg" alt="checked!">
+                                    <p>Audio Pass-thru: AC-3, E-AC3, DTS, DTS-HD, TrueHD, AAC and MP3 tracks
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <img src="/images/Rectangle 1 (1).png" alt="1" class="img-fluid">
+                        </div>
+                     </div>
+                    <!-- 3-row -->
+                     <div class="row mt-5 d-flex align-items-center">
+                        <div class="col-6">
+                            <img src="/images/Rectangle 1 (2).png" alt="1" class="img-fluid">
+                        </div>
+                        <div class="col-6">
+                            <div class="text-box">
+                                <h4 class="mt-3">
+                                    Optimised for easy use
+                                </h4>
+                                <h2 class="mt-3">
+                                    Built-in Device Presets
+                                </h2>
+                                <!-- Checkboxs -->
+                                <div class="d-flex check-box">
+                                    <img src="/images/check-circle.svg" alt="checked!" class="img-fluid">
+                                    <p>Title / chapter and range selection
+                                    </p>
+                                </div>
+                                <div class="d-flex check-box">
+                                    <img src="/images/check-circle.svg" alt="checked!" class="img-fluid">
+                                    <p>
+                                        Batch Scan and Queueing of encodes
+                                    </p>
+                                </div>
+                                <div class="d-flex check-box">
+                                    <img src="/images/check-circle.svg" alt="checked!" class="img-fluid">
+                                    <p>
+                                        Live Static and Video Preview
+                                    </p>
+                                </div>
+                                <div class="d-flex check-box">
+                                    <img src="/images/check-circle.svg" alt="checked!" class="img-fluid">
+                                    <p>
+                                        Support for VFR and CFR
+                                    </p>
+                                </div>
+                                <div class="d-flex check-box">
+                                    <img src="/images/check-circle.svg" alt="checked!" class="img-fluid">
+                                    <p>
+                                        Chapter Markers
+                                    </p>
+                                </div>
+                                <div class="d-flex check-box">
+                                    <img src="/images/check-circle.svg" alt="checked!" class="img-fluid">
+                                    <p>
+                                        Subtitles (VobSub, Closed Captions CEA-608, SSA, SRT)
+                                    </p>
+                                </div>
+                                <div class="d-flex check-box">
+                                    <img src="/images/check-circle.svg" alt="checked!" class="img-fluid">
+                                    <p>
+                                        Constant Quality or Average Bitrate Video Encoding
+                                    </p>
+                                </div>
+                                <div class="d-flex check-box">
+                                    <img src="/images/check-circle.svg" alt="checked!" class="img-fluid">
+                                    <p >
+                                        Video Filters: Deinterlacing, Decomb, Denoise, Detelecine, Deblock, Grayscale, Cropping and scaling
+                                    </p>
+                                </div>
+<!-- РУС - УЗБ -->
+                            </div>
+                        </div>
+                     </div>
+                </div>
+             </section>
         </main>
+        <footer class="mt-5">
+            <div class="container">
+                <section>
+                    <div class="row">
+                        <div class="col-12 footer-cross mt-4    ">
+    
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-6  p-0">
+                            <p class="footer-text text-start">
+                              Copyright 2020 ©  <strong class="text-light">The HandBrake Team</strong> | Privacy Policy
+                            </p>
+                          </div>
+                          <div class="col-6 p-0">
+                              <p class="footer-text text-end">
+                                  Found a bug? <strong class="text-light">Talk to us</strong>
+                              </p>
+                          </div>
+                    </div>
+                </section>
+            </div>
+        </footer>
         <!-- js Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
