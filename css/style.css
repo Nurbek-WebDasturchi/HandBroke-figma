@@ -2,18 +2,15 @@
     margin: 0;
     padding: 0;
 }
-/* Fonts */
-/* Roboto */
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Sans+Narrow:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
-/* Intel */
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Sans+Narrow:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 .br {
     border: 2px solid red;
 }
 /* Started styling */
+body {
+    background-color: #e9f5ff;
+}
 header {
     background-color: #1391ceb2;
-  
 }
 
 /* Nav */
@@ -36,8 +33,8 @@ nav {
 }
 
 .logo-container h4 {
-    font-family: 'Roboto';
-    /* Font kerak */
+    font-family: "Roboto";
+    color: #25468a;
     font-size: 24.68px;
     font-weight: 700;
     line-height: 28.93px;
@@ -62,7 +59,7 @@ nav {
     float: left;
 }
 .company-status h1 {
-    font-family: 'Roboto';
+    font-family: Roboto;
     color: #25468a;
     font-size: 92px;
     font-weight: 700;
@@ -72,7 +69,7 @@ nav {
     text-decoration-skip-ink: none;
 }
 .company-status h4 {
-    font-family: 'Roboto';
+    font-family: Roboto;
     font-size: 32px;
     font-weight: 400;
     line-height: 37.5px;
@@ -81,7 +78,7 @@ nav {
     text-decoration-skip-ink: none;
 }
 .company-status p {
-    font-family: 'Roboto';
+    font-family: Roboto;
     font-size: 20px;
     font-weight: 400;
     line-height: 23.44px;
@@ -98,6 +95,9 @@ nav {
     border-radius: 26px;
     display: inline-block;
 }
+.company-btn:hover {
+    background-color: #ffffff;
+}
 
 /* Section-2 */
 .info-card {
@@ -108,12 +108,19 @@ nav {
     padding: 69px 46px;
     width: 352px !important;
 }
+.info-card h3 {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.78px;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
 
 /* Section-3  */
 .section-title {
-    font-family: 'Inter';
+    font-family: "Inter";
     text-align: center;
-    /* Font kerak */
     color: #1391ce;
     font-size: 36px;
     font-weight: 300;
@@ -126,4 +133,79 @@ nav {
     background-color: #f7ba0e;
     float: left;
     float: right;
+}
+
+/* Section-4 */
+.text-box h2 {
+    font-family: "Inter";
+    color: #1391ce;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42.98px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+.text-box h4 {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.49px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    text-transform: uppercase;
+}
+.text-box p {
+    display: inline-block;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.17px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #4f4f4f;
+}
+.text-box h6 {
+    font-family: "Inter";
+    color: #1391ce;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29.55px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.check-box {
+    align-items: center;
+}
+.check-box p {
+    color: #4f4f4f;
+    align-content: center;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.17px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding-top: 12px;
+    margin-left: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #1391ce;
+}
+.footer-cross {
+    height: 1px;
+    width: 1000px;
+    background-color: #ffffff;
+}
+.footer-text {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.49px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    padding: 22px 0px 11px 0px;
 }
